@@ -10,11 +10,11 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {//PHP5.1.0以上の場合の�
 $site_top = "http://honkuzu.com";
 
 //管理者のメールアドレス
-$to = "yoshinoya.shop@honkuzu.com";
+$to = "yoshinoya.@honkuzu.com";
 
 //自動返信メールの送信元メールアドレス
 //必ず実在するメールアドレスでかつ出来る限り設置先サイトのドメインと同じドメインのメールアドレスとすること
-$from = "yoshinoya.shop@honkuzu.com";
+$from = "yoshinoya.@honkuzu.com";
 
 //フォームのメールアドレス入力箇所のname属性の値（name="○○"　の○○部分）
 $Email = "Email";
@@ -107,7 +107,7 @@ $mailSignature = <<< FOOTER
 よしのや
 奈良県奈良市西笹鉾町４２番地
 TEL：0742(22)4807
-E-mail:。yoshinoya.shop@honkuzu.com
+E-mail:。yoshinoya.@honkuzu.com
 URL:　http://honkuzu.com
 ──────────────────────
 
