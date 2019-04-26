@@ -317,7 +317,7 @@ footer small {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    float: right;
+    float: unset;
 }
 
 /* portfolio.htmlへの指定
